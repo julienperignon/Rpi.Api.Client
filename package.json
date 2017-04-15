@@ -1,0 +1,19 @@
+{
+  "name": "rpi.api.client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julienperignon/Rpi.Api.Client.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julienperignon/Rpi.Api.Client/issues"
+  },
+  "homepage": "https://github.com/julienperignon/Rpi.Api.Client#readme"
+}
