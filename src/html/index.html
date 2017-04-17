@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="rpiClientApp">
+
+<head>
+  <title>Raspberry Api Client</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- inject:css -->
+  <!-- endinject -->
+  <!-- inject:js -->
+  <!-- endinject -->
+</head>
+
+<body>
+  <h1>RPI Application control</h1>
+
+  <div ng-cloak ng-controller="RpiController" class="container">
+    <div class="row">
+      <div class="col-3">
+        <label class="switch">
+        <input type="checkbox" ng-model="isChecked" ng-change="callApi(17,isChecked)" />
+        <div class="slider round"></div>
+      </label>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
